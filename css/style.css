@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+header {
+  background-color: #FEFE3A;
+  height: 300px;
+  margin-bottom: 1%;
+}
+
+.container {
+  width: 1300px;
+  margin: auto;
+}
+
+main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col-left {
+  float: left;
+  height: 30%;
+  width: 28%;
+  background-color: #CC87DA;
+}
+
+.col-central {
+  float: left;
+  width: 40%;
+  background-color: #730671;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.col-right {
+  float: right;
+  width: 28%;
+  background-color: #CC87DA;
+}
